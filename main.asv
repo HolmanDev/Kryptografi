@@ -11,8 +11,7 @@ guessed_letter_idx = 1;
 guessed_letters = string(zeros(100, 1)); % Börja med storlek 100 (godtycklig siffra)
 correct_letter_idx = 1;
 correct_letters = string(zeros(100, 1)); % Börja med storlek 100 (godtycklig siffra)
-disp("Försök gissa det hemliga meddelandet! Du har " + max_attempts + " försök på dig");
-disp("-START-")
+disP
 % Game loop
 while true
     % Låt spelare 2 gissa
